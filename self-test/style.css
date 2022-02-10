@@ -1,5 +1,7 @@
 body {
     background: #F2EFE3;
+    height: 1000px;
+    border: 1px solid blue;
 }
 
 .head {
@@ -8,4 +10,14 @@ body {
     margin-left: 550px;
     margin-right: 550px;
     background-color: white;
+}
+
+.screening {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.conditions {
+    font-style: italic;
+    font-size: 15px;
 }
