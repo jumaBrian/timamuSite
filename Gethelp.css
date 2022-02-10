@@ -1,0 +1,42 @@
+*{
+    font-family: roboto;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #f2efe3;
+    border: 10px;
+
+}
+.head1{
+    text-align: center;
+    background-color: rgb(230, 197, 197);
+    border: 10px;
+    width: 40%;
+    padding:20px;
+    margin: 20px;
+    border-radius: 20px;
+    
+    
+
+}
+ 
+
+.bod{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 20px;
+    
+
+}
+.center1, .center2, .center3, .center4, .center5, .center6{
+    background-color: rgb(231, 183, 143);
+    padding: 20px;
+    text-align: center;
+    border: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: black;
+} 

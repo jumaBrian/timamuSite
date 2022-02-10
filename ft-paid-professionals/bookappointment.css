@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f2efe3;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.bookappointment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+img{
+    height: 495px;
+}
+.bookform{
+    border: 3px solid #000000;
+    width: 450px;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+h4{
+    margin: 30px;
+    font-family: Noto Sans;
+    font-weight: 700;
+    font-size: 24px;
+}
+li{
+    margin: 10px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+}
+#bookform{
+    height: 44px;
+    width: 410px;
+    border-radius: 6px;
+    border: 1px;
+    margin: 8px;
+    background-color: rgba(128, 128, 128, 0.8);
+    
+}
+::placeholder{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+#submit{
+    margin: 30px 8px;
+    height: 50px;
+    width: 410px;
+    border: 1px;
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.8);
+}
