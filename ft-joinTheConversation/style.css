@@ -43,16 +43,22 @@ body{
 }
 .userComment{
     display: flex;
-    flex-direction: column;
     margin: 1%;
     padding: 2%;
 }
 .userComment img{
     width: 6vw;
     margin: 2%;
+    margin-top: 30%;
+}
+.commentSection{
+    display:flex;
+    flex-direction: column;
+    margin-left: 5%;
 }
 .userComment .username{
     font-weight: 600;
+    margin: 1%;
 
 }
 .userComment .userOpinion{
