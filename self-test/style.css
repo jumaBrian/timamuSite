@@ -1,0 +1,11 @@
+body {
+    background: #F2EFE3;
+}
+
+.head {
+    text-align: center;
+    border: 1px solid red;
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color: white;
+}
