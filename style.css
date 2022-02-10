@@ -27,14 +27,17 @@ body{
 .edittext2{
     font-size: 70px;
     font-style: italic;
-    font-family: ;
 }
 .miss{
-    display: flex;
-    justify-content: space-between;
+    background-image: url(landing-images/pexels-alexander-suhorucov-6457564.jpg);
+    background-size:cover;
+    padding: 150px;
+    color:white;
+    font-weight: bolder;
+    text-align: center;
 }
-.miss1{
-    padding-right: 60px;
+.miss{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .edittext4{
     font-size: 40px;
@@ -48,6 +51,15 @@ body{
 }
 .help1{
     padding-right: 150px;
+    padding-top: 150px;
+    text-align: center;
+}
+.free{
+    display: flex;
+    justify-content: space-between;
+}
+.free1{
+    padding-left: 150px;
     padding-top: 150px;
     text-align: center;
 }
@@ -70,7 +82,7 @@ body{
     justify-content: space-between;
 }
 .prof1{
-    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 150px;
     text-align: center;
 }
