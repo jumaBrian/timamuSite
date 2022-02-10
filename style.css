@@ -1,1 +1,9 @@
-git
+*{
+    font-family: roboto;
+    box-sizing: border-box;
+    background-color: #f2efe3;
+}
+.head{
+    text-align: center;
+    
+}
