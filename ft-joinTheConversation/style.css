@@ -88,19 +88,14 @@ body{
     justify-content: space-between;
     height: 30px;
 }
-#sectionThree {
-/*     background-image: linear-gradient(90deg, #f2efe3, grey); */
-    display: flex;
-    justify-content: right;
-    margin: 0% 8%;
-    margin-top: -7.5%;
-}
 #last{
     margin-top: 5%;
 }
 #last input{
     background-color: azure;
-    border-radius: 4%;
+    border-radius: 25px;
+    height: 50px;
+    font-size: 1vw;
 }
 #last button{
     width: fit-content;
@@ -109,4 +104,5 @@ body{
     color: white;
     background-color: brown;
     font-size: 1vw;
+    border-radius: 25px;
 }
