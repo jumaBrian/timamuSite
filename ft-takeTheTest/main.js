@@ -1,38 +1,21 @@
-var quiz = [];
-quiz[0] = new Question("Little interest or pleasure in doing things?", "Not at all ", "Several days ", "More than half the days", "Nearly everyday");
-quiz[1] = new Question("Feeling down, depressed or hopeless ?", "Not at all ", "Several days ", "More than half the days", "Nearly everyday");
-quiz[2] = new Question("Trouble falling asleep,staying asleep, or sleeping too much?Feeling down, depressed or hopeless ?", "Not at all ", "Several days ", "More than half the days", "Nearly everyday");
-quiz[3] = new Question(" Feeling tired or having little energy?", "Not at all ", "Several days ", "More than half the days", "Nearly everyday");
-quiz[4] = new Question(" Poor appetite or overeating", "Not at all ", "Several days ", "More than half the days", "Nearly everyday");
-quiz[5] = new Question("Feeling down, depressed or hopeless ?Feeling bad about yourself-or that you're a failure or have let yourself or  your family down?", "Not at all ", "Several days ", "More than half the days", "Nearly everyday");
-var randomQuestion;
-var answers = [];
-var currentScore = 0;
-
-document.addEventListener("DOMContentLoaded",
-    function(event) {
-        btnProvideQuestion();
-    });
-
-function
-Question(question, rightAnswer, wrongAnswer1, wrongAnswer2) {
-    this.question = question;
-    this.rightAnswer = rightAnswer;
-    this.wrongAnswer1 = wrongAnswer2;
-};
-
-function shuffle(o) {
-    for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-    return o;
-};
-
-function btnProvideQuestion() {
-
-    var randomNumber = Math.floor(Math.random() * quiz.length);
-    randomQuestion = quiz[randomNumber];
-    answers = [randomQuestion.rightAnswer, randomQuestion.wrongAnswer1, randomQuestion.wrongAnswer2];
-    shuffle(answers);
-
-    document.getElementById("answerA").value = answer[0];
-    document.getElementById()
+function check() {
+    var c = 0
+    var q1 = document.quiz.question1.value;
+    var q2 = document.quiz.question2.value;
+    var q3 = document.quiz.question3.value;
+    var q4 = document.quiz.question4.value;
+    var q5 = document.quiz.question5.value;
+    var result = document.getElementById("result");
+    var quiz = document.getElementById("quiz");
+    if (q1 == "") { c++ }
+    if (q2 == "Functions") { c++ }
+    if (q3 == "indexof()") { c++ }
+    if (q4 == "Figma") { c++ }
+    if (q5 == "%") { c++ }
+    quiz.style.display = "none";
+    if (c <= 3) {
+        result.textContent = "Your result is $(c).Poor perfomance,work hard!!!"
+    } else {
+        result.textContent = "Your result is $(c).Excellent!!!!"
+    }
 }

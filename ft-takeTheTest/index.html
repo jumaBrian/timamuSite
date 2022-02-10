@@ -10,42 +10,53 @@
 </head>
 
 <body>
-    <div class="head">
-        <h1 class="today">Take A Mental Health Test Today</h1>
-        <p class="screening">Online screening is one of the quickest and ideal ways to examine <br> your mental health condition</p>
-        <p class="conditions">Mental health conditions,such as depression and anxiety,are real,common and most <br> importantly treatable.</p>
-        <!-- <h2 class="sharing">Mental Health Matters!!Speak Out,Sharing is Healing!!!</h2> -->
-    </div>
-    <div class="mental">
-        <div class="health">Score</div>
-        <div id="score" class="health"></div>
-    </div>
-    <div class="mental">
-        <div class="health">Question</div>
-        <div id="question" class="health"></div>
-    </div>
-    <div class="mental">
-        <div class="health">Answer A</div>
-        <!-- <button class="answerA" onclick="answerA_clicked()"></button> -->
-        <input type="radio" name="answerA" onclick="answerA_clicked()" id="answerA">
-    </div>
-    <div class=" mental ">
-        <div class="health ">Answer B</div>
-        <!-- <button class="answerB " onclick="answerB_clicked() "></button> -->
-        <input type="radio" name="answerB" onclick="answerB_clicked()" id="answerB">
-    </div>
-    <div class="mental ">
-        <div class="health ">Answer C</div>
-        <!-- <button class="answerC " onclick="answerC_clicked() "></button> -->
-        <input type="radio" name="answerC" onclick="answerC_clicked()" id="answerc">
-    </div>
-    <div class="mental ">
-        <div class="health ">Answer D</div>
-        <!-- <button class="answerD " onclick="answerD_clicked() "></button> -->
-        <input type="radio" name="answerD" onclick="answerD_clicked()" id="answerD">
-    </div>
+    <form name="quiz" id="quiz">
+        <div>
+            <p>1. Little interest or pleasure in doing things?</p>
+            <p><input type="radio " name="question1 " value="Not at all ">0. Not at all</p>
+            <p><input type="radio " name="question1 " value="Several days ">+1. Several days</p>
+            <p><input type="radio " name="question1 " value="More than half the days ">+2. More than half the days</p>
+            <p><input type="radio " name="question1 " value="Nearly every day ">+3. nearly every day</p>
+        </div>
+        <div>
+            <p>2. Feeling down,depressed or hopeless?</p>
+            <p><input type="radio " name="question2 " value="Not at all ">0. Not at all</p>
+            <p><input type="radio " name="question2 " value="Several days ">+1. Several days</p>
+            <p><input type="radio " name="question2 " value="More than half the days ">+2. More than half the days</p>
+            <p><input type="radio " name="question2 " value="Nearly every day ">+3. Nearly every day</p>
+        </div>
+        <div>
+            <p>3. Trouble falling asleep,staying asleep, <br> or sleeping too much?</p>
+            <p><input type="radio " name="question3 " value="Not at all ">0. Not at all</p>
+            <p><input type="radio " name="question3 " value="Several days ">+1. Several days</p>
+            <p><input type="radio " name="question3 " value="More than half the days ">+2. More than half the days</p>
+            <p><input type="radio " name="question3 " value="Nearly every day ">+3. Nearly every day</p>
+        </div>
+        <div>
+            <p>4. Feeling tired or having little energy?</p>
+            <p><input type="radio " name="question4 " value="Not at all ">0. Not at all</p>
+            <p><input type="radio " name="question4 " value="Several days ">+1. Several days</p>
+            <p><input type="radio " name="question4 " value="More than half the days ">+2. More than half the days</p>
+            <p><input type="radio " name="question4 " value="Nearly every day ">+3. Nearly every day</p>
+        </div>
+        <div>
+            <p>5. Poor appetite or overeating?</p>
+            <p><input type="radio " name="question5 " value="Not at all ">0. Not at all</p>
+            <p><input type="radio " name="question5 " value="Several days ">+1. Several days</p>
+            <p><input type="radio " name="question5 " value="More than half the days ">+2. More than half the days</p>
+            <p><input type="radio " name="question5 " value="Nearly every day ">+3. Nearly every day</p>
+        </div>
+        <div>
+            <p>6. Feeling bad about yourself-or that <br> you're a failure or have let yourself or <br> your family down?</p>
+            <p><input type="radio " name="question6 " value="Not at all ">0. Not at all</p>
+            <p><input type="radio " name="question6 " value="Several days ">+1. Several days</p>
+            <p><input type="radio " name="question6 " value="More than half the days ">+2. More than half the days</p>
+            <p><input type="radio " name="question6 " value="Nearly every day ">+3. Nearly every day</p>
+        </div>
 
-    <script type=" text/javascript " src="main.js "></script>
+    </form>
+    <p id="result"></p>
+    <script type=" text/javascript " src="main.js "></script> -->
 </body>
 
 </html>

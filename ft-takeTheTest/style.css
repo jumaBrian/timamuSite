@@ -12,6 +12,8 @@ body {
     background-color: white;
 }
 
+@media screen {}
+
 .screening {
     font-style: italic;
     font-size: 15px;
