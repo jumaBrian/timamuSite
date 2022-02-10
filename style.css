@@ -14,3 +14,12 @@ body{
 .edittext{
     font-size: 30px;
 }
+.mains{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.edittext2{
+    font-size: 70px;
+    font-style: italic;
+}
