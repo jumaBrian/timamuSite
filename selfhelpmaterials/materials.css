@@ -9,3 +9,17 @@ p{
 margin-left: 250px;
 margin-right: 250px;
 }
+
+img{
+    height: 200px;
+    width: auto;}
+
+
+    .div-A,.div-B{
+        display: flex;
+    flex-direction: row;
+    /* justify-content: space-aroun; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    }
