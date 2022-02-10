@@ -25,3 +25,14 @@ function shuffle(o) {
     for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
     return o;
 };
+
+function btnProvideQuestion() {
+
+    var randomNumber = Math.floor(Math.random() * quiz.length);
+    randomQuestion = quiz[randomNumber];
+    answers = [randomQuestion.rightAnswer, randomQuestion.wrongAnswer1, randomQuestion.wrongAnswer2];
+    shuffle(answers);
+
+    document.getElementById("answerA").value = answer[0];
+    document.getElementById()
+}
