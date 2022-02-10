@@ -59,3 +59,11 @@ body{
     padding-top: 150px;
     text-align: center;
 }
+.Prof{
+    display: flex;
+}
+.prof1{
+    padding-left: 200px;
+    padding-top: 150px;
+    text-align: center;
+}
