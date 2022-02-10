@@ -67,3 +67,12 @@ body{
     padding-top: 150px;
     text-align: center;
 }
+.learn{
+    display: flex;
+    justify-content: space-between;
+}
+.learn1{
+    padding-left: 150px;
+    padding-top: 150px;
+    text-align: center;
+}
