@@ -47,6 +47,8 @@ img{
         margin: 0%;
         margin-right: 10%;
         right: 15px;
+        margin-bottom: 30px;
+        margin-top: 30px;
     }
     .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8{
         float: left;
@@ -60,7 +62,13 @@ img{
         margin-top: 30px;
         color: black;
     }
-    .btn{
-width: 30px;
-height: 50px;
-}
+    .btn input{
+     width: 350px;
+     height: 45px;
+     margin-left: 200px;
+    }
+    .sub{
+        width: auto;
+        height: auto;
+        font-weight: 700;
+    }
