@@ -8,6 +8,8 @@ body{
 p{
 margin-left: 250px;
 margin-right: 250px;
+font-weight: 600;
+margin-bottom: 20px;
 }
 
 img{
@@ -15,26 +17,25 @@ img{
     width: auto;}
 
 
-    .div-A,.div-B{
+   .div-A,.div-B::after {content: "";
+    clear: both;
+    display: table;
+       /*
         display: flex;
     flex-direction: row;
-    /* justify-content: space-aroun; */
+    
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 20px;
+    margin-top: 20px;*/
+
+
     }
 
     .img1{
         margin-left: 10px;
     }
-    .img3{
-        
-    height: 10px;
-    width: auto;}
-    .img5{
-    height: 10px;
-    width: auto;
-    }
+   
+    
     .subscribe {
         position: absolute;
         background-image: linear-gradient(to right, rgb(44, 44, 77), rgb(245, 230, 245));
@@ -47,4 +48,19 @@ img{
         margin-right: 10%;
         right: 15px;
     }
-    
+    .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8{
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        margin-left: 200px;
+    }
+    .font{
+        font-weight: bolder;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        color: black;
+    }
+    .btn{
+width: 30px;
+height: 50px;
+}
