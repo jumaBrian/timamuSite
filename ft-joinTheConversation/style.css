@@ -15,8 +15,6 @@ body{
 #sectionOne #title{
     font-size: 3vw;
     font-weight: 900;
-    font-family: ;
-
 }
 #sectionTwo{
     margin: 7% 8%;
@@ -89,4 +87,26 @@ body{
     display: flex;
     justify-content: space-between;
     height: 30px;
+}
+#sectionThree {
+/*     background-image: linear-gradient(90deg, #f2efe3, grey); */
+    display: flex;
+    justify-content: right;
+    margin: 0% 8%;
+    margin-top: -7.5%;
+}
+#last{
+    margin-top: 5%;
+}
+#last input{
+    background-color: azure;
+    border-radius: 4%;
+}
+#last button{
+    width: fit-content;
+    padding: 3%;
+    margin-top: 3%;
+    color: white;
+    background-color: brown;
+    font-size: 1vw;
 }
