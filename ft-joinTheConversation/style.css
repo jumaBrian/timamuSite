@@ -27,12 +27,22 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: 100%; */
+    background-size: 100%; 
 }
-
 #sectionTwo .left{
     width:50%;
 
+}
+.left #quote{
+    margin-top: -4%;
+    margin-left: -20%;
+    font-style: oblique;
+    font-size: 1.9vw;
+    background: transparent;
+    margin-bottom: 10%;
+}
+#quote span{
+    color: brown;
 }
 #sectionTwo .chatContainer{
     width: 50%;
@@ -40,6 +50,14 @@ body{
     margin-left: -10%;
     background-color: #fff;
     padding: 3%;
+}
+#sectionTwo .chatContainer #text{
+    text-align: center;
+    margin-bottom:5%;
+    color: brown;
+    font-weight: 900;
+    font-size: 1.5vw;
+
 }
 .userComment{
     display: flex;
@@ -61,15 +79,15 @@ body{
 .userComment .username{
     font-weight: 600;
     margin: 1%;
-
 }
 .userComment .userOpinion{
     font-style: italic;
     margin-top: 3%;
-
+    height: 100px;
 }
 .iconsSpan{
-    margin-top:3%;
+    margin-top:5%;
     display: flex;
     justify-content: space-between;
+    height: 30px;
 }
