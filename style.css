@@ -50,3 +50,12 @@ body{
     height: 40px;
     background-color: #f2efe3;
 }
+.Chat{
+    display:flex;
+    justify-content: space-between;
+}
+.chat1{
+    padding-left: 150px;
+    padding-top: 150px;
+    text-align: center;
+}
