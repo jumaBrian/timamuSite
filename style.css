@@ -117,3 +117,105 @@ body{
     list-style: none;
     padding:30px;
 }
+@media screen and (max-width: 480px) 
+{
+    .nav1{
+        display:flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .nav1 ul{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .nav1 li{
+        list-style: none;
+        padding: 30px;
+        font-weight: bold;
+    }
+    .miss{
+        background-image: url(landing-images/pexels-alexander-suhorucov-6457564.jpg);
+        background-size:cover;
+        padding: 0px;
+        color:white;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .mains{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 0px;
+    }
+    .mains1{
+        padding: 0px;
+    }
+    .help{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .help1{
+        padding: 0px;
+    }
+    .Chat{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .chat1{
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    .Prof{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px;
+        margin-top: 30px;
+    }
+    .prof1{
+        padding: 0px;
+    }
+    .learn{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .learn1{
+        padding: 0px;
+    }
+    .free{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .free1{
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    .cont{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .cont1{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .cont2{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .cont2 ul{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+}
