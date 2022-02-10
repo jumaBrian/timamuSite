@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Handlee&family=Roboto:wght@300&display=swap');
 body{
     background-color: #f2efe3;
-    margin:50px;
+    padding:50px;
 }
 .nav1{
     display: flex;
@@ -109,6 +109,7 @@ body{
 }
 .cont2{
     display: flex;
+    justify-content: space-around;
 }
 .cont ul{
     display: flex;
@@ -135,12 +136,8 @@ body{
         font-weight: bold;
     }
     .miss{
-        background-image: url(landing-images/pexels-alexander-suhorucov-6457564.jpg);
-        background-size:cover;
-        padding: 0px;
-        color:white;
-        font-weight: bolder;
-        text-align: center;
+        padding:10px;
+        margin:10px;
     }
     .mains{
         display:flex;
@@ -217,5 +214,11 @@ body{
         display: flex;
         flex-direction: column;
         padding: 0px;
+    }
+    .space1{
+        max-width: 10px;
+    }
+    .space2{
+        max-width: 10px;
     }
 }
