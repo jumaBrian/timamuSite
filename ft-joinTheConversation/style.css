@@ -20,6 +20,7 @@ body{
 }
 #sectionTwo{
     margin: 10% 8%;
+    padding-bottom: 10%;
     display: flex;
     justify-content: space-between;
     background-image: url(images/conversationBG.png);
@@ -27,7 +28,6 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: 100%; */
-
 }
 
 #sectionTwo .left{
@@ -40,4 +40,21 @@ body{
     margin-left: -10%;
     background-color: #fff;
     padding: 3%;
+}
+.userComment{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    padding: 2%;
+}
+.userComment img{
+    width: 6vw;
+    margin: 2%;
+}
+.userComment .username{
+    font-weight: 600;
+
+}
+.userComment .userOpinion{
+
 }
