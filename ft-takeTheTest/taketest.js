@@ -7,15 +7,33 @@ function check() {
     var q5 = document.quiz.question5.value;
     var result = document.getElementById("result");
     var quiz = document.getElementById("quiz");
-    if (q1 == "") { c++ }
-    if (q2 == "Functions") { c++ }
-    if (q3 == "indexof()") { c++ }
-    if (q4 == "Figma") { c++ }
-    if (q5 == "%") { c++ }
-    quiz.style.display = "none";
-    if (c <= 3) {
-        result.textContent = "Your result is $(c).Poor perfomance,work hard!!!"
-    } else {
-        result.textContent = "Your result is $(c).Excellent!!!!"
+    // if (q1 == "Nearly every day") { c++ }
+    // if (q2 == "Nearly every day") { c++ }
+    // if (q3 == "Nearly every day") { c++ }
+    // if (q4 == "Nearly every day") { c++ }
+    // if (q5 == "Nearly every day") { c++ }
+    // quiz.style.display = "none";
+
+    function check() {
+        alert(Swal.submit({
+            title: 'Do you want to see a medical practitioner?',
+            showDenyButton: true,
+            showCancelButton: true,
+            confirmButtonText: 'Yes',
+            denyButtonText: `No`,
+        }).then((result) => {
+            /* Read more about isConfirmed, isDenied below */
+            if (result.isConfirmed) {
+                Swal.fire('Congratulations!!', '', 'Email the practitioner to book appointment below')
+            } else if (result.isDenied) {
+                Swal.fire('Thank you for taking test.', )
+            }
+        }))
     }
+
+
+    // if (c <= 3) {
+    //     alert("Get help from a medical practitioner!!!");
+    // } else {
+    //     alert("Get better by going through self help materials!!!");
 }

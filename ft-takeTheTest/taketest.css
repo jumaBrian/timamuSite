@@ -1,49 +1,52 @@
-body {
-    background: #F2EFE3;
-    height: 1000px;
-    border: 1px solid blue;
-}
-
-.test {
-    text-align: center;
-    border: 1px solid red;
-    margin-left: 550px;
-    margin-right: 550px;
-    background-color: white;
-}
-
-@media screen {}
-
-.screening {
+    body {
+        background: #F2EFE3;
+        height: 1450px;
+        border: 1px solid blue;
+    }
+    
+    #test {
+        text-align: center;
+        border: 1px solid red;
+        margin-left: 550px;
+        margin-right: 550px;
+        background-color: white;
+    }
+    
+    #quiz {
+        margin-left: 50px;
+    }
+    
+    #button {
+        background: blue;
+        text-align: center;
+        height: 35px;
+        width: 80px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    /* @media screen {} */
+    /* .screening {
     font-style: italic;
     font-size: 15px;
-}
-
+} */
+    /* 
 .conditions {
     font-style: italic;
     font-size: 15px;
-}
-
-.mental {
-    display: flex;
-}
-
+} */
+    /* 
 .health {
     min-width: 150px;
     min-height: 30px;
     margin: 10px;
-}
-
-
-/* button {
+} */
+    /* button {
     height: 30px;
     width: 200px;
     border: none;
     background: #808080;
 } */
-
-
-/* .footer {
+    /* .footer {
     display: flex;
     align-items: flex-end;
 } */
